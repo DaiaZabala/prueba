@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 50%;
+    width: 50%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/static/img/img-main.jpg);
+    /* background-color: #14213d; */
+    font-family: Arial, sans-serif;
+}
+
+.Bienvenido-container {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000;
+}
+
+.Bienvenido-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h2{
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: #14213d;
+    color: #fca311;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e5e5e5;
+    border: 1px solid #000000;
+    color:#14213d
+}
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+
+:root {
+    --color-turquesa:#186CC3;
+    --color-celesteclaro: #52B5F2;
+    --color-rosa: #d966ba;
+     
+}
+
+.container{
+    /* background: radial-gradient(circle, #ffcccc, #ff9999); */
+    background: radial-gradient(circle, #fcb6e9, #d966ba);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    height: 10vh;
+    /* background-color: #001F3F; */
+    background-color: var(--color-turquesa);
+    width: 30vw;
+    text-align: center;
+    border-radius: 10vw;
+    padding:1vw;
+    box-sizing:border-box;
+    margin-bottom: 2vh;
+
+}
+a{
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 600px) {
+    .Bienvenido-container {
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .Bienvenido-container h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para dispositivos medianos (tabletas) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .Bienvenido-container {
+        padding: 1.5rem;
+        border-radius: 8px;
+    }
+
+    .Bienvenido-container h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* Estilos para dispositivos grandes (escritorios) */
+@media (min-width: 1025px) {
+    .Bienvenido-container {
+        padding: 2rem;
+        border-radius: 10px;
+    }
+
+    .Bienvenido-container h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 75px;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+}
